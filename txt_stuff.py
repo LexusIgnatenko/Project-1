@@ -1,4 +1,7 @@
-def rewrite():
-    with open('C:\Users\йролджэ\Desktop\Python\Folder\1.txt', 'rt', encoding='utf-8') as file:
-        return sum(file.count('\n'))
-rewrite()
+def dictionary():
+    files = []
+    with open('recepies.txt', 'rt') as file:
+        counting = file.readline()
+    files.append(counting)
+    print(files)
+dictionary()
